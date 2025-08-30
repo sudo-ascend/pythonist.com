@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background: #f2f2f2;
+  margin: 0
+}
+
+.page {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: #303234;
+  width: 100%;
+  height: 70px;
+  border-radius: 0px 0px 7px 7px;
+  margin-bottom: auto;
+}
+
+.icon {
+  height: 50px;
+  margin-left: -15px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.name {
+  color: #EFEFEF;
+  position: absolute;
+  margin-bottom: auto;
+  margin-left: 65px;
+  text-decoration: underline;
+  top: 2px;
+  font-size: 24px;
+}
+
+.name:hover {
+  cursor: default;
+}
+
+.main {
+  width: 40%;
+  background-color: #f2f2f2;
+  position: relative;
+  left: 20%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main:hover {
+  cursor: text;
+}
+
+.main-text {
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 0px;
+}
+
+.main-text2 {
+  color: #5C5C5C;
+  line-height: 22px;
+}
+
+ .heading {
+  font-size: 24px;
+}
+
+.aside {
+  width: 19%;
+  height:600px;
+  background-color: white;
+  position: absolute;
+  left: 62%;
+  top: 100px;
+  /* box-shadow: inset 0px 0px 2px 2px rgba(242, 242, 242, 0.5); */
+  border-radius: 10px;
+}
+
+ .footer {
+  background: #303234;
+  width: 100%;
+  height: 350px;
+  margin-top: auto;
+  border-top: 5px solid grey;
+}
+
+ .icon2 {
+  height: 100px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 11%;
+}
+
+ .name2 {
+  color: #EFEFEF;
+  position: absolute;
+  text-decoration: underline;
+  margin-left: 19%;
+  margin-top: 70px;
+  font-size: 48px;
+}
+
+.name2:hover {
+  cursor: default;
+}
+
+.text {
+  color: #ADADAD;
+  position:absolute;
+  margin-left: 350px;
+  margin-top: 120px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.text:hover {
+  scale: 1.09;
+  color: #47B8F4;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #4C4C4C;
+  color: #A6A6A6;
+  position:absolute;
+  margin-left: 1200px;
+  margin-top: 75px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn:hover {
+    scale: 1.03;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: #36A8E4;
+  color: #E1E1E1;
+  position:absolute;
+  margin-left: 1200px;
+  margin-top: 135px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn2:hover {
+  scale: 1.03;
+  cursor: pointer;
+}
+
+.facebook {
+  height: 50px;
+  position:absolute;
+  margin-left: 750px;
+  margin-top: 275px;
+}
+
+.facebook:hover {
+  scale: 1.1;
+  color: #00A7FF;
+  cursor: pointer;
+}
+
+.twiter {
+  height: 80px;
+  position:absolute;
+  margin-left: 800px;
+  margin-top: 265px;
+}
+
+.twiter:hover {
+  scale: 1.1;
+  color: #00A7FF;
+  cursor: pointer;
+}
+
+.yootube {
+  height: 46px;
+  position:absolute;
+  margin-left: 893px;
+  margin-top: 278px;
+}
+
+.yootube:hover {
+  scale: 1.1;
+  color: #00A7FF;
+  cursor: pointer;
+}
+
+.instagram {
+  height: 50px;
+  position:absolute;
+  margin-left: 975px;
+  margin-top: 275px;
+}
+
+.instagram:hover {
+  scale: 1.1;
+  color: #00A7FF;
+  cursor: pointer;
+}
+
+.telegram {
+  height: 100px;
+  position:absolute;
+  margin-left: 1020px;
+  margin-top: 250px;
+}
+
+.telegram:hover {
+  scale: 1.1;
+  color: #00A7FF;
+  cursor: pointer;
+}
+
+.numbers {
+  color: #ADADAD;
+  position:absolute;
+  margin-left: 1200px;
+  margin-top: 202px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 19px;
+}
+
+.comments {
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  height: 175px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0.1px rgba(92, 92, 92, 0.5);
+}
+
+.comments2 {
+  background-color: #E1E1E1;
+  position: absolute;
+  margin-left: 75px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  bottom: 10px;
+  height: 90px;
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px rgba(92, 92, 92, 0.5);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: #5C5C5C;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.comments2:hover {
+  background-color: #D7D7D7;
+  cursor: text;
+}
+.avatar {
+  height: 40px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.main-text3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 22px;
+  color: #D7D7D7;
+  display: inline;
+}
+
+.main-text3:hover {
+  color: #47B8F4;
+  cursor: pointer;
+}
+
+.search {
+  background-color: white;
+  height: 30px;
+  width: 46%;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: #5C5C5C;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.search:hover {
+   background-color: #f2f2f2;
+   cursor: text;
+}
+.lupa {
+  width: 17px;
+  margin-left: -22px;
+  margin-top: 1px;
+  position: absolute;
+}
+
+.aside-content {
+  color: #666666;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  list-style: none;
+  line-height: 20px;
+  margin-left: -10px;
+}
+
+.aside-content:hover {
+  color: #47B8F4;
+  cursor: pointer;
+}
